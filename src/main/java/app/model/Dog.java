@@ -3,10 +3,10 @@ package app.model;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Cat extends Animal {
+public class Dog extends Animal{
     private String message;
 
-    public Cat(String text) {
+    public Dog(String text) {
         this.message = text;
     }
 
